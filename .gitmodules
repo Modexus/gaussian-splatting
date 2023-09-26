@@ -1,9 +1,9 @@
 [submodule "submodules/simple-knn"]
 	path = submodules/simple-knn
-	url = https://github.com/Modexus/simple-knn
+	url = git@github.com:Modexus/simple-knn
 [submodule "submodules/diff-gaussian-rasterization"]
 	path = submodules/diff-gaussian-rasterization
-	url = https://github.com/Modexus/diff-gaussian-rasterization
+	url = git@github.com:Modexus/diff-gaussian-rasterization
 [submodule "SIBR_viewers"]
 	path = SIBR_viewers
-	url = https://github.com/Modexus/sibr_core
+	url = git@github.com:Modexus/sibr_core.git
