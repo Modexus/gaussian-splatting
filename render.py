@@ -17,10 +17,10 @@ import torch
 import torchvision
 from tqdm import tqdm
 
-from gaussian_splatting.arguments import ModelParams, PipelineParams, get_combined_args
-from gaussian_splatting.gaussian_renderer import GaussianModel, render
-from gaussian_splatting.scene import Scene
-from gaussian_splatting.utils.general_utils import safe_state
+from arguments import ModelParams, PipelineParams, get_combined_args
+from gaussian_renderer import GaussianModel, render
+from scene import Scene
+from utils.general_utils import safe_state
 
 
 def render_set(model_path, name, iteration, views, gaussians, pipeline, background):
